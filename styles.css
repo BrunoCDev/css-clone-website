@@ -1,0 +1,132 @@
+header {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 55px 50px;
+    color: white;
+    font-size: 11px;
+}
+
+.letters-nav {
+    display: flex;
+    width: 300px;
+    height: 38px;
+    letter-spacing: 1px;
+    margin-right: 350px;
+    margin-top: 15px;
+}
+
+.subscribe {
+    display: flex;
+    width: 100px;
+    height: 50px;
+    border: white solid;
+    border-radius: 20%;
+    border-width: 2px;
+}
+
+.subscribe p {
+    margin-top: 15px;
+    margin-left: 10px;
+    display: flex;
+    font-size: 13px;
+}
+
+.logo {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding-right: 60px;
+}
+
+nav img {
+    height: 30px;
+    width: 30px;
+    display: flex;
+}
+
+.logo-letter {
+    padding-top: 7px;
+    margin-left: 17px;
+    color: white;
+    width: 120px;
+    height: 50px;
+    font-size: 17px;
+    display: flex;
+}
+
+
+section {
+    display: flex;
+    width: 1000px;
+    height: 346px;
+    margin-left: 17px;
+    justify-content: center;
+}
+
+.titleDiscover {
+    padding-left: 90%;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: flex;
+    width: 1000px;
+    height: 68px;
+    font-size: 60px;
+    text-align: center;
+    margin-right: 350px;
+    margin-top: 40px;
+}
+
+section img {
+    width: 50px;
+    height: 50px;
+    margin-left: 290px;
+    margin-top: 50px;
+}
+
+p {
+    color: white;
+    width: 600px;
+    height: 102px;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.stuff {
+    color: white;
+    margin-top: 40px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-left: 30px;
+}
+
+button {
+    border: solid white;
+    color: blue;
+    font-size: 15px;
+    border-radius: 40px 40px;
+    border-width: 18px;
+    margin-left: 240px;
+    margin-top: 10px;
+}
+
+.wrapper {
+    background: url('https://s3.amazonaws.com/blog.invisionapp.com/uploads/2017/08/designbetter-blog-images-launch-bg.png?ver=1');
+    height: 100vh;
+}
