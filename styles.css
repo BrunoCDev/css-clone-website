@@ -1,132 +1,128 @@
-header {
-    height: 20vh;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
 body {
-
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 55px 50px;
-    color: white;
-    font-size: 11px;
-}
-
-.letters-nav {
-    display: flex;
-    width: 300px;
-    height: 38px;
-    letter-spacing: 1px;
-    margin-right: 350px;
-    margin-top: 15px;
-}
-
-.subscribe {
-    display: flex;
-    width: 100px;
-    height: 50px;
-    border: white solid;
-    border-radius: 20%;
-    border-width: 2px;
-}
-
-.subscribe p {
-    margin-top: 15px;
-    margin-left: 10px;
-    display: flex;
-    font-size: 13px;
-}
-
-.logo {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    padding-right: 60px;
-}
-
-nav img {
-    height: 30px;
-    width: 30px;
-    display: flex;
-}
-
-.logo-letter {
-    padding-top: 7px;
-    margin-left: 17px;
-    color: white;
-    width: 120px;
-    height: 50px;
-    font-size: 17px;
-    display: flex;
-}
-
-
-section {
-    display: flex;
-    width: 1000px;
-    height: 346px;
-    margin-left: 17px;
-    justify-content: center;
-}
-
-.titleDiscover {
-    padding-left: 90%;
-}
-
-h1 {
-    color: white;
-    font-weight: bold;
-    letter-spacing: 1px;
-    display: flex;
-    width: 1000px;
-    height: 68px;
-    font-size: 60px;
-    text-align: center;
-    margin-right: 350px;
-    margin-top: 40px;
-}
-
-section img {
-    width: 50px;
-    height: 50px;
-    margin-left: 290px;
-    margin-top: 50px;
-}
-
-p {
-    color: white;
-    width: 600px;
-    height: 102px;
-    font-size: 12px;
-    text-align: center;
-    margin-right: 100px;
-}
-
-.stuff {
-    color: white;
-    margin-top: 40px;
-    font-size: 18px;
-    letter-spacing: 2px;
-    margin-left: 30px;
-}
-
-button {
-    border: solid white;
-    color: blue;
-    font-size: 15px;
-    border-radius: 40px 40px;
-    border-width: 18px;
-    margin-left: 240px;
-    margin-top: 10px;
+    background-image: url('https://s3.amazonaws.com/blog.invisionapp.com/uploads/2017/08/designbetter-blog-images-launch-bg.png?ver=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 .wrapper {
-    background: url('https://s3.amazonaws.com/blog.invisionapp.com/uploads/2017/08/designbetter-blog-images-launch-bg.png?ver=1');
-    height: 100vh;
+  height: 100vh;
+}
+
+.nav-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.navbar {
+  height: 20vh;
+  width: 100vw;
+  color: white;
+  display: inline-flex;
+  justify-content: space-around;
+  margin-top: 10vh;
+}
+
+.nav-left {
+  width: 10vw;
+  display: inline-flex;
+  margin-right: 10vw;
+  margin-top: -1vh;
+}
+
+.nav-left p {
+  margin-top: 1vh;
+}
+
+.nav-left img {
+  margin-right: 10px;
+}
+
+.nav-mid {
+  display: inline-flex;
+  justify-content: space-around;
+  font-size: 12px;
+  width: 35vw;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.nav-right {
+  border-color: white;
+  border-radius: 17%;
+  border-style: solid;
+  border-width: 1px;
+  height: 40px;
+  width: 120px;
+  padding-top: 10px;
+  margin-top: -10px;
+}
+
+.nav-right a {
+  width: 20vw;
+  height: 10vh;
+  font-size: 12px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.section {
+  margin-left: 20vw;
+  color: white;
+  width: 60vw;
+  height: 50vh;
+  display: block;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.section-logo {
+  width: 70px;
+  height: 70px;
+}
+
+.header {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+
+.text {
+  font-size: 17px;
+  width: 50vw;
+  letter-spacing: 1px;
+  margin-left: 5vw;
+}
+
+.text p {
+  margin-top: 15px;
+}
+
+.section-button {
+  margin-top: 5vh;
+  display: flex;
+  justify-content: space-around;
+  width: 70vw;
+}
+
+.section-button a{
+  font-size: 13px;
+  border: 1px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 10%;
+  width: 150px;
+  height: 50px;
+  padding-top: 17px;
+  color: blue;
+  background-color: white;
+  font-weight: bold;
+  margin-left: -30vw;
+}
+
+.section-button p {
+  margin-top: 10vh;
+  font-size: 13px;
+  margin-left: -55vw;
+  -webkit-transform: rotate(-90deg);
 }
